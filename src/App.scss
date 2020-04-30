@@ -1,0 +1,289 @@
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateY(-100%);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+@keyframes hoverUp {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-10%);
+  }
+}
+
+.App {
+  overflow-x: hidden;
+  font-size: 15px;
+
+  .header {
+    text-align: center;
+    position: relative;
+    animation: 1s ease-out 0s 1 slideInFromLeft;
+
+    .title {
+      position: relative;
+      animation: 1s ease-out 0s 1 slideInFromLeft;
+
+      .name {
+        font-family: "eurostile", sans-serif;
+        font-weight: 800;
+        color: rgba(255, 255, 255, 0.7);
+      }
+
+      .subtitle {
+        font-family: "europa", sans-serif;
+        color: rgba(255, 255, 255, 0.7);
+      }
+    }
+
+    .icons {
+      position: absolute;
+      right: 0;
+      top: 1em;
+
+      i {
+        padding-right: 0.5em;
+        color: rgba(255,255,255, 1);
+      }
+
+      i:hover {
+        color: rgba(102,51,153, 0.7);
+        animation: 0.2s linear 0s 1 hoverUp;
+        transform: translateY(-10%);
+        cursor: pointer;
+      }
+    }
+  }
+
+  .body {
+    margin-bottom: 3em;
+
+    h3 {
+      font-size: 3.8em;
+      color: rgba(102,51,153, 0.7);
+      font-weight: 400;
+      font-family: sans-serif;
+      margin-block-start: 1em;
+      margin-block-end: 0.5em;
+    }
+
+    div {
+      text-align: center;
+    }
+
+    h4 {
+      font-size: 2.5em;
+      font-weight: 600;
+      font-family: sans-serif;
+      margin-block-start: 0.5em;
+      margin-block-end: 0.5em;
+    }
+
+    p {
+      line-height: 1.42857143;
+      color: #545454;
+      font-size: 2em;
+      font-weight: 300;
+      font-family: sans-serif;
+      margin-block-end: 0;
+    }
+
+    i {
+      margin-top: 0.2em;
+      color: rgba(102,51,153, 0.7);
+      font-size: 6em;
+    }
+
+    a {
+      font-size: 1.2em;
+      font-weight: 600;
+      color: black;
+      padding: 0.3em;
+      width: 100%;
+    }
+
+    a:hover {
+      cursor: pointer;
+    }
+
+    .aboutMe {
+      padding-left: 1em;
+      padding-right: 1em;
+    }
+
+    .skills {
+      .content {
+        margin-top: 2em;
+        display: flex;
+        flex-wrap: wrap;
+
+        .box {
+          flex-basis: 0;
+          flex-grow: 1;
+          padding: 1em;
+          min-width: 24em;
+
+          .MuiPaper-root.MuiExpansionPanel-root.MuiExpansionPanel-rounded.MuiPaper-elevation1.MuiPaper-rounded {
+            padding-top: 0.5em;
+            padding-bottom: 0.5em;
+          }
+
+          .MuiExpansionPanelSummary-content {
+            display: block;
+            font-size: 1.4em;
+            font-weight: 600;
+          }
+
+          .MuiExpansionPanelDetails-root {
+            display: flex;
+            padding-top: 0;
+
+            .skillContent {
+              width: 100%;
+
+              h5 {
+                font-size: 1.3em;
+                margin: 0.3em;
+                color: rgba(102, 51, 153, 0.7);
+              }
+
+              .section {
+                margin-bottom: 1em;
+              }
+
+              .experience {
+                .list {
+                  display: flex;
+                  flex-wrap: wrap;
+
+                  .bubble {
+                    flex-grow: 1;
+                    font-size: 1.3em;
+                    margin: 0.2em;
+                    border-radius: 0.3em;
+                    padding: 0.3em;
+                  }
+
+                  .commercial {
+                    background-color: #F2D16B;
+                  }
+
+                  .university {
+                    background-color: #C0C0C0;
+                  }
+
+                  .personalProject {
+                    background-color: #b9722d;
+                  }
+                }
+              }
+
+              .description {
+                font-size: 1.2em;
+              }
+
+              .relatedProjects {
+                .list {
+                  display: flex;
+                  justify-content: center;
+                  flex-wrap: wrap;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .projects {
+      margin-top: 3em;
+
+      .content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        .flip-container:hover .flipper {
+          transform: rotateY(180deg);
+        }
+
+        .flip-container {
+          flex-basis: 0;
+          flex-grow: 0;
+
+          .flipper {
+            transition: 0.6s;
+            transform-style: preserve-3d;
+            position: relative;
+            border-radius: 12px;
+            box-shadow: 10px 10px 5px rgba(0,0,0, 0.7);
+
+            .back,
+            .front {
+              backface-visibility: hidden;
+              position: absolute;
+              left: 0;
+            }
+
+            .front {
+              z-index: 2;
+              transform: rotateY(0deg);
+
+              .frontContent {
+                position: absolute;
+
+                img {
+                  top: 0;
+                  left: 0;
+                  position: absolute;
+                  border-radius: 12px;
+                  opacity: 1;
+                }
+
+                h4 {
+                  top: 5em;
+                  position: relative;
+                  text-align: center;
+                  color: rgba(0,0,0, 0.75);
+                }
+              }
+            }
+            .back {
+              transform: rotateY(180deg);
+              border: 1px solid rgba(0,0,0, 0.3);
+              border-radius: 12px;
+
+              .backContent {
+                .icons {
+                  display: flex;
+                  justify-content: space-around;
+                  i {
+                    margin-top: 0;
+                    color: rgba(0,0,0, 1);
+                  }
+
+                  i:hover {
+                    color: rgba(102,51,153, 0.7);
+                    animation: 0.2s linear 0s 1 hoverUp;
+                    transform: translateY(-10%);
+                    cursor: pointer;
+                  }
+                }
+
+                p {
+                  text-align: left;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
