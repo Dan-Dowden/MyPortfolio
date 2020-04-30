@@ -6,12 +6,17 @@ const frontEndSkills = [
     personalProject: true,
     relatedProjects: [
       {
-        name: "To-Do List Webservice",
-        link:"https://github.com/DD-NZ/Todo-List-Webservice"
-      },
-      {
         name: "Wheres My Money",
         link:"https://github.com/DD-NZ/BankTracker/tree/master/wheres-my-money"
+      }, {
+        name: "This website",
+        link:"https://github.com/DD-NZ/myPortfolio"
+      },{
+        name: "Coffe Shop Webservice",
+        link:"https://github.com/DD-NZ/Fake-Coffee-Shop"
+      }, {
+        name: "To-Do List Webservice",
+        link:"https://github.com/DD-NZ/Todo-List-Webservice"
       }
     ]
 
@@ -24,6 +29,9 @@ const frontEndSkills = [
       {
         name: "Wheres My Money",
         link:"https://github.com/DD-NZ/BankTracker/tree/master/wheres-my-money"
+      }, {
+        name: "This website",
+        link:"https://github.com/DD-NZ/myPortfolio"
       }
     ]
   }, {
@@ -40,6 +48,9 @@ const frontEndSkills = [
       {
         name: "Wheres My Money",
         link:"https://github.com/DD-NZ/BankTracker/tree/master/wheres-my-money"
+      }, {
+        name: "This website",
+        link:"https://github.com/DD-NZ/myPortfolio"
       }
     ]
   }
@@ -64,6 +75,9 @@ const backEndSkills = [
     personalProject: false,
     relatedProjects: [
       {
+        name: "Coffe Shop Webservice",
+        link:"https://github.com/DD-NZ/Fake-Coffee-Shop"
+      }, {
         name: "To-Do List Webservice",
         link:"https://github.com/DD-NZ/Todo-List-Webservice"
       }
@@ -73,6 +87,12 @@ const backEndSkills = [
     commercial: false,
     university: true,
     personalProject: false,
+    relatedProjects: [
+      {
+        name: "Coffe Shop Webservice",
+        link:"https://github.com/DD-NZ/Fake-Coffee-Shop"
+      }
+    ]
   }, {
     title:"Relational Database Design",
     commercial: false,
@@ -90,16 +110,10 @@ const otherSkills = [
     personalProject: true,
   }, {
     title:"AWS S3 / EC2",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex, sit amet blandit leo lobortis eget.",
+    description: "I have used EC2 instances both commercially and at university, the websites I have created were deployed with S3 and cloudfront",
     commercial: true,
     university: true,
     personalProject: true,
-    relatedProjects: [
-      {
-        name: "To-Do List Webservice",
-        link:"https://github.com/DD-NZ/Todo-List-Webservice"
-      }
-    ]
   }, {
     title:"Android App Development",
     commercial: false,
@@ -107,7 +121,7 @@ const otherSkills = [
     personalProject: true,
     relatedProjects: [
       {
-        name: "Gains Tracker App",
+        name: "Gym Tracker App",
         link:"https://github.com/DD-NZ/GymTracker"
       },
       {
@@ -117,6 +131,7 @@ const otherSkills = [
     ]
   }, {
     title:"Machine Learning Techniques",
+    description: "I have take advanced papers on machine learning, understanding the concepts and mathematics behind the algorithms and how to apply them to datasets.",
     commercial: false,
     university: true,
     personalProject: false,
