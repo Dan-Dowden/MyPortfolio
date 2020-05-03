@@ -33,8 +33,8 @@ const Body = ({size}) => (
     </h3>
     <div className="content">
       <Flipper src="https://my-dev-portfolio.s3-ap-southeast-2.amazonaws.com/wheres-my-money.png" project="wheresMyMoney"/>
-      <Flipper src="http://localhost:3000/teaTime.jpg" project="teaTime"/>
-      <Flipper src="http://localhost:3000/gymTracker.jpg" project="gymTracker"/>
+      <Flipper src="https://my-dev-portfolio.s3-ap-southeast-2.amazonaws.com/teaTime.jpg" project="teaTime"/>
+      <Flipper src="https://my-dev-portfolio.s3-ap-southeast-2.amazonaws.com/gymTracker.jpg" project="gymTracker"/>
     </div>
     </div>
   </div>

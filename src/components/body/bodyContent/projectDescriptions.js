@@ -17,16 +17,16 @@ const WhereMyMoneyDescription = ({size}) => (
         />
       </div>
       <p style={{fontSize: (size.width/20), marginTop: 0}}>
-        Wheres My Money is a tool which helps to visualise your bank statement.
+        Where's My Money is a tool which helps to visualize your bank statement.
       </p>
       <p style={{fontSize: (size.width/20)}}>
-        I Developed this to help identify trends in my money spending and help to budget better week to week.
+        I developed this to help identify trends in my spending habits and to enable better budgeting week to week.
       </p>
       <p style={{fontSize: (size.width/20)}}>
-        This project helped to improve my React skills, learing alot about development of an entire project from design to deployment.
+        This project helped to improve my React skills, learning a lot about the development of an entire project from design to deployment.
       </p>
       <p style={{fontSize: (size.width/20)}}>
-        For this project my main goals were focused on creating a fast and intuative UI. To achieve this is used Material UI to help with styling, as well as well as designing the architecture to be able to display and filter large numbers of transactions smoothly.
+        My main goals were focused on creating a fast and intuitive UI. I used the Material UI API for styling, as well as creating an architecture to display and filter large numbers of bank transactions smoothly.
       </p>
     </div>
   )
@@ -43,10 +43,10 @@ const GymTrackerDescription = ({size}) => (
       />
     </div>
     <p style={{fontSize: (size.width/20), marginTop: 0}}>
-      Gym Tracker is an android application which helps to track progress at the gym.
+      Gym Tracker is an Android application that helps to track progress at the gym.
     </p>
     <p style={{fontSize: (size.width/20)}}>
-      I developed this app to help me push myself harder at the gym. Knowing exactly what was done at the gym last session helps me to improve ensureing I am progressivly overloading my weights.
+      I developed this app to allow me push myself harder at the gym. Knowing exactly what was done at the gym the last session helps me to improve, ensuring I am progressively overloading my weights.
     </p>
     <p style={{fontSize: (size.width/20)}}>
       This was my first attempt at native android app development using Android Studio. My main goals were to learn as much as possible about app design and development, based on the result of creating a functional application which I use on a day to day basis I think this was a success.
@@ -67,13 +67,13 @@ const TeaTimeDescription = ({size}) => (
       />
     </div>
     <p style={{fontSize: (size.width/20), marginTop: 0}}>
-      The Tea Time project is an android app and arduino microcontroller which notifies my phone when my cup of tea is at my desired temperature.
+      The Tea Time project is an Android app and Arduino microcontroller which notifies my phone when my cup of tea is at my desired temperature.
     </p>
     <p style={{fontSize: (size.width/20)}}>
-      The android app syncs up via bluetooth with a microcontroller which contatains a thermometer. When the thermometer reads the desired temperature the app is notified which sends a notification to the home screen.
+      The Android app syncs up via Bluetooth with a microcontroller that contains a thermometer. When the thermometer reads the desired temperature the app is notified which sends a notification to the home screen.
     </p>
     <p style={{fontSize: (size.width/20)}}>
-      The Goals of this project was to learn about Bluetooth Low Energy communication protocols and how to get two devices to talk to one another.
+      The goal of this project was to learn about Bluetooth Low Energy communication protocols and how to get two devices to talk to one another.
     </p>
   </div>
 )

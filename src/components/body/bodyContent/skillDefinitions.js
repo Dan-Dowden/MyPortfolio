@@ -6,13 +6,13 @@ const frontEndSkills = [
     personalProject: true,
     relatedProjects: [
       {
-        name: "Wheres My Money",
+        name: "Where's My Money",
         link:"https://github.com/DD-NZ/BankTracker/tree/master/wheres-my-money"
       }, {
         name: "This website",
         link:"https://github.com/DD-NZ/myPortfolio"
       },{
-        name: "Coffe Shop Webservice",
+        name: "Coffee Shop Webservice",
         link:"https://github.com/DD-NZ/Fake-Coffee-Shop"
       }, {
         name: "To-Do List Webservice",
@@ -27,7 +27,7 @@ const frontEndSkills = [
     personalProject: true,
     relatedProjects: [
       {
-        name: "Wheres My Money",
+        name: "Where's My Money",
         link:"https://github.com/DD-NZ/BankTracker/tree/master/wheres-my-money"
       }, {
         name: "This website",
@@ -46,7 +46,7 @@ const frontEndSkills = [
     personalProject: true,
     relatedProjects: [
       {
-        name: "Wheres My Money",
+        name: "Where's My Money",
         link:"https://github.com/DD-NZ/BankTracker/tree/master/wheres-my-money"
       }, {
         name: "This website",
@@ -75,7 +75,7 @@ const backEndSkills = [
     personalProject: false,
     relatedProjects: [
       {
-        name: "Coffe Shop Webservice",
+        name: "Coffee Shop Webservice",
         link:"https://github.com/DD-NZ/Fake-Coffee-Shop"
       }, {
         name: "To-Do List Webservice",
@@ -89,7 +89,7 @@ const backEndSkills = [
     personalProject: false,
     relatedProjects: [
       {
-        name: "Coffe Shop Webservice",
+        name: "Coffee Shop Webservice",
         link:"https://github.com/DD-NZ/Fake-Coffee-Shop"
       }
     ]
@@ -98,7 +98,7 @@ const backEndSkills = [
     commercial: false,
     university: true,
     personalProject: false,
-    description: "I have taken final year papers on relational database design, learning how to create mathmaticaly correct and optimized databases"
+    description: "I have taken final year papers on relational database design, learning how to create mathematically correct and optimized databases."
   }
 ]
 
@@ -110,7 +110,7 @@ const otherSkills = [
     personalProject: true,
   }, {
     title:"AWS S3 / EC2",
-    description: "I have used EC2 instances both commercially and at university, the websites I have created were deployed with S3 and cloudfront",
+    description: "I have used EC2 instances both commercially and at university, the websites I have created were deployed with S3 and Cloudfront.",
     commercial: true,
     university: true,
     personalProject: true,
@@ -131,7 +131,7 @@ const otherSkills = [
     ]
   }, {
     title:"Machine Learning Techniques",
-    description: "I have take advanced papers on machine learning, understanding the concepts and mathematics behind the algorithms and how to apply them to datasets.",
+    description: "I have taken advanced papers on machine learning, understanding the concepts and mathematics behind the algorithms and how to apply them to datasets.",
     commercial: false,
     university: true,
     personalProject: false,
