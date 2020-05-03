@@ -13,7 +13,7 @@ const WhereMyMoneyDescription = ({size}) => (
         <i
           className="fa fa-github"
           style={{fontSize: (size.width/7)}}
-          onClick={()=>window.open("https://github.com/DD-NZ/TeaTime", '_blank')}
+          onClick={()=>window.open("https://github.com/DD-NZ/BankTracker-v2", '_blank')}
         />
       </div>
       <p style={{fontSize: (size.width/20), marginTop: 0}}>

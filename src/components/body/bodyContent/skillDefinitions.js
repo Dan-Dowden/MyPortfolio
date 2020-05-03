@@ -7,7 +7,7 @@ const frontEndSkills = [
     relatedProjects: [
       {
         name: "Where's My Money",
-        link:"https://github.com/DD-NZ/BankTracker/tree/master/wheres-my-money"
+        link:"https://github.com/DD-NZ/BankTracker-v2"
       }, {
         name: "This website",
         link:"https://github.com/DD-NZ/myPortfolio"
@@ -28,7 +28,7 @@ const frontEndSkills = [
     relatedProjects: [
       {
         name: "Where's My Money",
-        link:"https://github.com/DD-NZ/BankTracker/tree/master/wheres-my-money"
+        link:"https://github.com/DD-NZ/BankTracker-v2"
       }, {
         name: "This website",
         link:"https://github.com/DD-NZ/myPortfolio"
@@ -47,7 +47,7 @@ const frontEndSkills = [
     relatedProjects: [
       {
         name: "Where's My Money",
-        link:"https://github.com/DD-NZ/BankTracker/tree/master/wheres-my-money"
+        link:"https://github.com/DD-NZ/BankTracker-v2"
       }, {
         name: "This website",
         link:"https://github.com/DD-NZ/myPortfolio"
